@@ -1,0 +1,164 @@
+V "GNAT Lib v2015"
+A -gnatA
+A -gnatwa
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U spark.text_io.integer_io%b  spark-text_io-integer_io.adb  1716c23c NE OO PK GE IU
+Z ada%s			ada.ads			ada.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W ada.text_io.integer_io%s
+W spark.text_io%s	spark-text_io.adb	spark-text_io.ali
+
+U spark.text_io.integer_io%s  spark-text_io-integer_io.ads  b630fff6 BN EE NE OO PK GE IU
+W ada.text_io.integer_io%s
+W spark.text_io%s	spark-text_io.adb	spark-text_io.ali
+
+D ada.ads		20171018122245 3ffc8e18 ada%s
+D a-except.ads		20171018122244 5250cb69 ada.exceptions%s
+D a-ioexce.ads		20171018122245 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20171018122245 119b8fb3 ada.streams%s
+D a-tags.ads		20171018122245 dc4d0634 ada.tags%s
+D a-textio.ads		20171018122244 386df5d4 ada.text_io%s
+D a-tiinau.ads		20171018122245 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20171018122244 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20171018122244 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20171018122245 f9eb8f06 ada.unchecked_conversion%s
+D interfac.ads		20171018122244 6033a23f interfaces%s
+D i-cstrea.ads		20171018122244 e53d8b8e interfaces.c_streams%s
+D spark.ads		20190307160104 16439e1d spark%s
+D spark-text_io.ads	20190307160104 720f86d6 spark.text_io%s
+D spark-text_io-integer_io.ads  20190307160104 c43f7920 spark.text_io.integer_io%s
+D spark-text_io-integer_io.adb  20190307160104 d329bb1c spark.text_io.integer_io%b
+D system.ads		20171018122244 1d274481 system%s
+D s-crtl.ads		20171018122245 0ebbdb71 system.crtl%s
+D s-exctab.ads		20171018122245 54135002 system.exception_table%s
+D s-ficobl.ads		20171018122245 078245e4 system.file_control_block%s
+D s-parame.ads		20171018122244 7e2a0d7f system.parameters%s
+D s-soflin.ads		20171018122245 aa763b52 system.soft_links%s
+D s-stache.ads		20171018122245 a37c21ec system.stack_checking%s
+D s-stalib.ads		20171018122244 fa0a3617 system.standard_library%s
+D s-stoele.ads		20171018122245 2dc34a04 system.storage_elements%s
+D s-traent.ads		20171018122245 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20171018122245 9d58a4c0 system.unsigned_types%s
+D s-wchcon.ads		20171018122245 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 19e8 16|28r34 40r33 49r12 52r12 55r12 58r12 61r12 70r27 74r12 77r12
+. 80r12 83r12 86r12 100r33 104r33 112r12 113r12 114r12 122r27 125r12 127r12
+. 129r12 141r12
+X 6 a-textio.ads
+49K13*Text_IO 471e16 16|28r38 40r37 49r16 52r16 55r16 58r16 61r16 70r31 74r16
+. 77r16 80r16 83r16 86r16 100r37 104r37 112r16 113r16 114r16 122r31 125r16
+. 127r16 129r16 141r16
+52P9*File_Type
+53n32*Out_File{53E9} 15|80r46
+64I9*Count<integer>
+117V13*Standard_Input{52P9} 16|40s45 70s39
+118V13*Standard_Output{52P9} 16|100s45 122s39
+119V13*Standard_Error{52P9} 16|104s45
+292X4*Status_Error 16|49r24 74r24 112r24 125r24
+293X4*Mode_Error 16|52r24 77r24 113r24 127r24
+296X4*Device_Error 16|55r24 80r24 114r24 129r24
+297X4*End_Error 16|58r24 83r24
+298X4*Data_Error 16|61r24 86r24 141r24
+X 8 a-tiinio.ads
+46k21*Integer_IO 85e27 16|28r46
+51U14 Get 16|40s28[28] 44s28[28] 70s22[28]
+60U14 Put 16|100s28[28] 104s28[28] 108s28[28] 122s22[28]
+71U14 Get 16|138s22[28]
+76U14 Put 16|149r21[28]
+X 13 spark.ads
+29K9*SPARK 66e10 15|27r9 102r5 16|25r14 151r5
+42n25*Success{41E9} 15|34r15 64r63 78r48 16|41r32 42r28 45r32 46r28 71r26
+. 72r32 102r28 106r28 109r28 123r33 139r26
+44n25*Status_Error{41E9} 15|32r49 16|50r29 51r25 75r29 76r35 112r55 126r36
+45n25*Mode_Error{41E9} 16|37r32 38r28 53r29 54r25 78r29 79r35 98r28 113r55
+. 128r36
+48n25*Device_Error{41E9} 16|56r29 57r25 81r29 82r35 114r55 130r36
+49n25*End_Error{41E9} 16|59r29 60r25 84r29 85r35
+50n25*Data_Error{41E9} 16|62r29 63r25 87r29 88r35 142r29
+57n31 Std_In{57E9} 16|39r15 97r15
+57n39 Std_Out{57E9} 16|36r15 99r15
+57n48 Std_Error{57E9} 16|36r25 103r15
+57n59 A_File{57E9} 16|43r15 107r15
+61e7*Status{41E9} 16|38m18 42m18 46m18 51m15 54m15 57m15 60m15 63m15 72m22
+. 76m25 79m25 82m25 85m25 88m25 98m18 102m18 106m18 109m18 112m45 113m45
+. 114m45 123m23 126m26 128m26 130m26
+62e7*Sort{57E9} 16|35r17 96r17
+63p7*File{6|52P9} 16|44r38 108r38
+X 14 spark-text_io.ads
+46K15*Text_IO 13|29k9 14|808e18 15|27r15 102r11 16|25r20 151r11
+55R9*File_Type<13|53R9> 15|39r34 59r34
+56E9*File_Status<13|41E9> 15|32r34
+57E9*File_Mode<6|53E9>
+58I9*Count<6|64I9>
+61I12*Field{integer} 15|29r29 41r34 50r31 61r30 75r30 16|32r30 67r31 93r30
+. 119r30
+62I12*Number_Base{integer} 15|30r29 62r30 76r30 98r31 16|94r30 120r30 148r31
+100r4*Standard_Input{55R9} 15|51r32 52r34 53r27 54r30 55r27 56r30 57r40 16|72m7
+. 76m10 79m10 82m10 85m10 88m10
+101r4*Standard_Output{55R9} 15|77r32 78r29 79r30 80r27 81r27 82r30 83r27
+. 84r30 85r34 86r37 87r34 88r37 89r41 16|123m7 126m10 128m10 130m10
+138V13*Status{56E9} 15|64s47 78s21
+167V13*Is_Open{boolean} 15|66s19 79s21
+171V13*Mode{57E9} 15|67s19 67s33 80s21
+178V13*Name{string} 15|45s19 45s33 53s21 54s24 68s19 68s33 81s21 82s24
+182V13*Form{string} 15|46s19 46s33 55s21 56s24 69s19 69s33 83s21 84s24
+187V13*Is_Readable{boolean} 15|43s19 44s19 52s21
+192V13*Is_Writable{boolean} 15|64s19 65s19
+366V14*Line_Length{58I9} 15|70s19 70s40 85s21 86s24
+373V14*Page_Length{58I9} 15|71s19 71s40 87s21 88s24
+X 15 spark-text_io-integer_io.ads
+26I8 Num 29r38 34r33 60r30 74r30 97r31 100r35 16|28r58 33r13 68r13 92r30
+. 118r30 136r13 147r31
+27k23*Integer_IO 14|46k15 15|26z8 102l19 102e29 16|25b28 151l19 151t29
+29i4*Default_Width{14|61I12} 61r39 75r39 16|93r39 119r39
+30i4*Default_Base{14|62I12} 62r45 76r45 98r46 16|94r45 120r45 148r46
+32R9*Integer_Result 32d25 37e14 40r34 49r31 92r32 16|31r31 66r31 134r32
+32e25 Status{14|56E9} 33r12
+34*26 Item{26I8} 16|41m41 45m41 71m35 139m35
+39U14*Get 39=19 40<19 41>19 16|30b14 64l8 64t11
+39r19 File{14|55R9} 43r32 44r32 45r25 45r39 46r25 46r39 47r37 47r63 16|30b19
+. 35r12 38m13 42m13 44r33 46m13 51m10 54m10 57m10 60m10 63m10
+40r19 Item{32R9} 16|31b19 37m13 41m13 45m13 50m10 53m10 56m10 59m10 62m10
+41i19 Width{14|61I12} 16|32b19 40r66 44r49
+49U14*Get 49<19 50>19 16|66b14 89l8 89t11
+49r19 Item{32R9} 16|66b19 71m7 75m10 78m10 81m10 84m10 87m10
+50i19 Width{14|61I12} 16|67b19 70r60
+59U14*Put 59=19 60>19 61>19 62>19 16|91b14 115l8 115t11
+59r19 File{14|55R9} 64r32 64r55 65r32 66r28 67r25 67r39 68r25 68r39 69r25
+. 69r39 70r32 70r53 71r32 71r53 72r37 72r63 16|91b19 96r12 98m13 102m13 106m13
+. 108r33 109m13 112m40 113m40 114m40
+60*19 Item{26I8} 16|92b19 101r33 105r33 108r44
+61i19 Width{14|61I12} 16|93b19 101r39 105r39 108r50
+62i19 Base{14|62I12} 16|94b19 101r46 105r46 108r57
+74U14*Put 74>19 75>19 76>19 16|118b14 131l8 131t11
+74*19 Item{26I8} 16|118b19 122r56
+75i19 Width{14|61I12} 16|119b19 122r62
+76i19 Base{14|62I12} 16|120b19 122r69
+91U14*Get 91>19 92<19 93<19 16|133b14 144l8 144t11
+91a19 From{string} 16|133b19 138r27
+92r19 Item{32R9} 16|134b19 139m7 142m10
+93i19 Last{positive} 16|135b19 138m38 143m10
+96U14*Put 96<19 97>19 98>19 16|146b14
+96a19 To{string} 100r22 16|146b19
+97*19 Item{26I8} 100r46 16|147b19
+98i19 Base{14|62I12} 16|148b19
+X 16 spark-text_io-integer_io.adb
+28K12 Ada_Integer_IO[8|46] 40r13 44r13 70r7 100r13 104r13 108r13 122r7 138r7
+. 149r6
+33*7 Int{15|26I8} 40m61 41r49 44m44 45r49
+68*7 Int{15|26I8} 70m55 71r43
+136*7 Int{15|26I8} 138m33 139r43
+

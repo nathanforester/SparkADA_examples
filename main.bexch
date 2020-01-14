@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/main.gpr
+20190414130249
+[BOUND OBJECT FILES]
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/spark.o
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/vir_measurer.o
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/spark-text_io.o
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/main.o
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/spark-text_io-integer_io.o
+/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/as_io_wrapper.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/
+-L/home/students/590850/Critical_Systems_Coursework/Coursework Submission/3/
+-L/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.3/adalib/
+-static
+-static-libgcc
+/usr/gnat/lib/gcc/x86_64-pc-linux-gnu/4.9.3/adalib/libgnat.a

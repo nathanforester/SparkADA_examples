@@ -1,0 +1,238 @@
+{
+  "spark": [
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Ada_Integer_IO",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.adb",
+          "line": 28
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Get",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 39
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Get",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 49
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Put",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 59
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Put",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 74
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Get",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 91
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO.Put",
+      "sloc": [
+        {
+          "file": "spark-text_io-integer_io.ads",
+          "line": 96
+        },
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.Integer_IO",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.adb",
+          "line": 11
+        }
+      ],
+      "spark": "no"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Init_Standard_Input",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 26
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Init_Standard_Output",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 33
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 46
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Get",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 54
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 60
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Get_Line",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 77
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put_Line",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 84
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put_Line",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 89
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Get",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 107
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 115
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper.AS_Put_Line",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 120
+        }
+      ],
+      "spark": "spec"
+    },
+    {
+      "name": "AS_Io_Wrapper",
+      "sloc": [
+        {
+          "file": "as_io_wrapper.ads",
+          "line": 22
+        }
+      ],
+      "spark": "spec"
+    }
+  ],
+  "flow": [
+  ],
+  "proof": [
+  ],
+  "assumptions": [
+  ]
+}
